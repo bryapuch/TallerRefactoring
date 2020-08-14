@@ -1,24 +1,23 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package modelos;
-public class Estudiante extends Persona{
-    //Informacion del estudiante
-    private String matricula;
+
+/**
+ *
+ * @author t_t-b
+ */
+public class Persona {
+
     private String nombre;
     private String apellido;
-    private String facultad;
     private int edad;
     private String direccion;
-    private String telefono;  
-    
-    //Getter y setter de Matricula
-    public String getMatricula() {
-        return matricula;
-    }
+    private String telefono;
+    //getters y setters
 
-    public void setMatricula(String matricula) {
-        this.matricula = matricula;
-    }
-
-    //Getter y setter del Nombre
     public String getNombre() {
         return nombre;
     }
@@ -26,8 +25,7 @@ public class Estudiante extends Persona{
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
-    
-    //Getter y setter del Apellido
+
     public String getApellido() {
         return apellido;
     }
@@ -35,17 +33,7 @@ public class Estudiante extends Persona{
     public void setApellido(String apellido) {
         this.apellido = apellido;
     }
-    
-    //Getter y setter de la Facultad
-    public String getFacultad() {
-        return facultad;
-    }
 
-    public void setFacultad(String facultad) {
-        this.facultad = facultad;
-    }
-    
-    //Getter y setter de la edad
     public int getEdad() {
         return edad;
     }
@@ -53,8 +41,7 @@ public class Estudiante extends Persona{
     public void setEdad(int edad) {
         this.edad = edad;
     }
-    
-    //Getter y setter de la direccion
+
     public String getDireccion() {
         return direccion;
     }
@@ -62,8 +49,6 @@ public class Estudiante extends Persona{
     public void setDireccion(String direccion) {
         this.direccion = direccion;
     }
-    
-    //Getter y setter del telefono
 
     public String getTelefono() {
         return telefono;
@@ -72,4 +57,5 @@ public class Estudiante extends Persona{
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
-}        
+
+}
